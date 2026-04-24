@@ -1,0 +1,14 @@
+[
+  {
+    "id": "R999",
+    "name": "Raj",
+    "device": "Samsung 24",
+    "status": "Pending"
+  },
+  {
+    "id": "R009",
+    "name": "Kartik",
+    "device": "Nokia",
+    "status": "Pending"
+  }
+]

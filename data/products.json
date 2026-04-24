@@ -1,0 +1,24 @@
+[
+  {
+    "id": "1776970615863",
+    "name": "Samsung S24",
+    "price": "1,99,999",
+    "image": "/uploads/1776970615759.jpg",
+    "features": [
+      "50MP Camera",
+      "1TB Storage"
+    ],
+    "category": "mobiles"
+  },
+  {
+    "id": "1777054246492",
+    "name": "AC",
+    "price": "25000",
+    "image": "/uploads/1777054245884.jpg",
+    "features": [
+      "50MP Camera",
+      "1TB Storage"
+    ],
+    "category": "electronics"
+  }
+]

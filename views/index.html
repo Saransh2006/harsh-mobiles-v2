@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harsh Mobiles</title>
+
+<link rel="stylesheet" href="/css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+    <h2>Harsh Mobiles</h2>
+
+    <div class="nav-right">
+        <span>📞 8302371205</span>
+        <a href="/admin-login" class="admin-btn">Admin</a>
+    </div>
+</header>
+
+<!-- ================= MAIN ================= -->
+<main class="container">
+
+    <!-- HERO -->
+    <section class="hero">
+        <h1>Best Mobile Deals in Your Area</h1>
+        <p>Buy Phones • Electronics • Fast Repair Service</p>
+
+        <div class="toggle">
+            <div class="toggle-bg"></div>
+            <button id="mobilesBtn" class="active">Mobiles</button>
+            <button id="electronicsBtn">Electronics</button>
+        </div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="trust">
+        <span>✔ Within 24 Hr Repair</span>
+        <span>✔ Genuine Electronics</span>
+        <span>✔ Best Price Guarantee</span>
+    </section>
+
+    <!-- REPAIR TRACK -->
+    <section class="repair-section">
+        <h2>Track Your Repair</h2>
+
+        <div class="repair-box">
+            <input id="repairId" placeholder="Enter Repair ID (e.g. R001)" autofocus>
+            <button onclick="trackRepair()">Track</button>
+        </div>
+
+        <div id="repairResult"></div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section>
+        <h2 class="section-title">Featured Products</h2>
+        <div id="productContainer" class="products"></div>
+    </section>
+
+    <!-- STORE -->
+    <section class="store">
+        <div class="store-left">
+            <h2>Visit Our Store</h2>
+            <p>Expert advice & best deals available offline</p>
+
+            <p><strong>Address:</strong> Bharatpur, Rajasthan</p>
+            <p><strong>Timing:</strong> 10 AM - 8 PM</p>
+        </div>
+
+        <div class="store-map">
+            <iframe 
+                src="https://maps.google.com/maps?q=Bharatpur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                width="100%" height="250" style="border:0;">
+            </iframe>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+        <h2>Need a Phone or Repair?</h2>
+        <p>Call or WhatsApp for instant response</p>
+
+        <button class="call-btn">Call Now</button>
+        <button class="whatsapp-btn">WhatsApp</button>
+    </section>
+
+</main>
+
+<!-- ================= SCRIPT ================= -->
+<script src="/js/main.js"></script>
+
+</body>
+</html>
