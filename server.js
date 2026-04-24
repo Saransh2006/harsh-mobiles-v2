@@ -192,8 +192,8 @@ app.post("/api/upload", checkAuth, upload.single("image"), async (req, res) => {
         const filename = Date.now() + ".jpg";
 
         await sharp(req.file.buffer)
-            .resize(400, 400)
-            .jpeg({ quality: 80 })
+           .resize({ width: 300 }) 
+            .jpeg({ quality: 70 })
             .toFile(`public/uploads/${filename}`);
 
         res.json({ imageUrl: `/uploads/${filename}` });

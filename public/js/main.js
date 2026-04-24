@@ -27,7 +27,7 @@ function renderProducts(data) {
         <div class="card fade-up">
 
             <div class="image-box">
-                <img src="${product.image}" alt="${product.name}">
+                <img src="${product.image}" alt="${product.name}" loading="lazy" onerror="this.src='/fallback.png'">
                 <span class="badge">In Stock</span>
             </div>
 
